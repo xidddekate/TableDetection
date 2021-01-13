@@ -2,11 +2,11 @@
 
 git clone the code...
 
-In the “data/images/” folder we have 403 image files from different types of documents.In addition to the images there are also 2 csv files with the ground truth data for this dataset. Each file has lines for each table found in each file, in the following format:
-\<filename\>, \<xmin\>, \<ymin\>, \<xmax\>, \<ymax\>, \<class\> (in our case “class” will always be “table”)
+In the “data/images/” folder there are 403 image files from different types of documents.In addition to the images there are also 2 csv files with the ground truth data for this dataset. Each file has lines for each table found in each file, in the following format:
+\<filename\>, \<xmin\>, \<ymin\>, \<xmax\>, \<ymax\>, \<class\> (in this case “class” will always be “table”)
     
 Custom data can also be used.
-Now,we need to process the images to make the contents better understandable for the object detection network. Run pre-processing.ipynb and there should be 2 additional directories in “data” folder — ”train” and “val”. These hold the preprocessed image files for training and validating the results.
+Now,there is a need to process the images to make the contents better understandable for the object detection network. Run pre-processing.ipynb and there should be 2 additional directories in “data” folder — ”train” and “val”. These hold the preprocessed image files for training and validating the results.
 
 # TFRecords
 
