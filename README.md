@@ -11,7 +11,7 @@ Now,there is a need to process the images to make the contents better understand
 # TFRecords
 
 Run ==> pip3 install luminoth
-Now, create TFRecords using the command line tool “lumi” which comes with Luminoth.In the directory where “data” folder is placed open a terminal or command line and run the following line:
+<br>Now, create TFRecords using the command line tool “lumi” which comes with Luminoth.In the directory where “data” folder is placed open a terminal or command line and run the following line:
 lumi dataset transform --type csv --data-dir data/ --output-dir tfdata/ --split train --split val --only-classes=table
 
 This will create a folder called “tfdata” with the TFRecords needed for the training of the network.
